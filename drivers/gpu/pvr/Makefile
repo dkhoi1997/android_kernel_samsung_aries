@@ -12,7 +12,7 @@ ccflags-y := \
 	-Wno-sign-compare\
 	-fno-strict-aliasing\
 	-Wno-pointer-arith\
-	-O3 -fmodulo-sched -fmodulo-sched-allow-regmoves -fno-tree-vectorize
+	-Os
 
 ccflags-y += -DLINUX -D__linux__ -DANDROID
 ccflags-y += -Idrivers/gpu/pvr
